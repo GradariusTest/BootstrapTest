@@ -1,0 +1,72 @@
+
+
+@import "bootstrap.css";
+@import "bootstrap-theme.css";
+
+
+
+
+// OpenSans
+// 1090
+
+.container{
+  max-width: 1090px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+
+.navbar-header{
+  padding: 32px 0;
+}
+
+.navbar{
+  margin-bottom: 0 !important;
+}
+
+.nav{
+
+  a{
+    padding-top: 44px !important;
+    padding-bottom: 44px !important;
+    font-size: 15px;
+    border-bottom: solid 4px transparent;
+    
+
+    &:hover{
+      color: #49cbcd !important;
+      font-size: 15px;
+      border-color: #49cbcd;
+      background-color: #f8f9fb !important;
+    }
+    
+  }
+  
+}
+
+.carousel{
+  background: url("../images/carousel1_02.jpg");
+  
+  padding: 130px 0 147px;
+  text-align: center;
+  color: white;
+  
+  h1{
+    font-size: 52px;
+    margin-bottom: 40px;
+  }
+
+  span{
+    font-size: 18px;
+    margin-bottom: 55px;
+  }
+  
+  a{
+    text-decoration: none;
+    padding: 20px 42px;
+    border: solid white 3px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+  }
+}
